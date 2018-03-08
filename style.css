@@ -6,13 +6,17 @@ body {
 }
 
 h2, h3 {
-  color: midnightblue;
+  color: dodgerblue;
 	font-family: charcoal;
   text-align: center;	
 	/*font-size:*/
 }
 
-table, th, td {
+h3 {
+	text-decoration: underline;
+}
+
+table, th, tr, td {
 	border: 1px solid white;
 	width: 200px;
 	margin: auto;
