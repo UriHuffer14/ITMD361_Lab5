@@ -1,13 +1,30 @@
 body {
 	color: aqua;
 	background-color: black;
+	font-family: palatino;  
 }
 
-h2 {
-  color: midnightblue;	
+h2, h3 {
+  color: midnightblue;
+	font-family: charcoal;
+  text-align: center;	
 	/*font-size:*/
+}
+
+table, th, td {
+	border: 1px solid white;
+}
+
+table {
+	border-collapse: collapse;
 }
 
 th {
 	color: gray;
+	font-family: courier;
+	font-weight: bold
+}
+
+tr:hover {
+	background-color: lightgrey;
 }
