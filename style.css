@@ -1,4 +1,13 @@
+body {
+	color: aqua;
+	background-color: black;
+}
+
 h2 {
   color: midnightblue;	
 	/*font-size:*/
+}
+
+th {
+	color: gray;
 }
