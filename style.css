@@ -13,6 +13,8 @@ h2, h3 {
 
 table, th, td {
 	border: 1px solid white;
+	width: 200px;
+	margin: auto;
 }
 
 table {
@@ -26,5 +28,5 @@ th {
 }
 
 tr:hover {
-	background-color: lightgrey;
+	background-color: snow;
 }
