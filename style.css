@@ -1,7 +1,8 @@
 body {
 	color: aqua;
 	background-color: black;
-	font-family: palatino;  
+	font-family: palatino;
+	background-image: url("media/blackhole.jpg");
 }
 
 h2, h3 {
@@ -15,6 +16,7 @@ table, th, td {
 	border: 1px solid white;
 	width: 200px;
 	margin: auto;
+	background-image: none;
 }
 
 table {
@@ -27,6 +29,11 @@ th {
 	font-weight: bold
 }
 
+tr{
+	background-color: black;
+}
+
 tr:hover {
 	background-color: snow;
+	color: black;
 }
